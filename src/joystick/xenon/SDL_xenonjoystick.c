@@ -177,7 +177,7 @@ void SDL_SYS_JoystickUpdate(SDL_Joystick *joystick)
                 if (joystick->buttons[8])
                         SDL_PrivateJoystickButton(joystick, (Uint8)8, SDL_RELEASED);
         }
-
+/*
         if (joystick->hwdata->curpad.select)
         {
                 if (!joystick->buttons[9])
@@ -187,7 +187,7 @@ void SDL_SYS_JoystickUpdate(SDL_Joystick *joystick)
         {
                 if (joystick->buttons[9])
                         SDL_PrivateJoystickButton(joystick, (Uint8)9, SDL_RELEASED);
-        }
+        }*/
 
         if (joystick->hwdata->curpad.lt > 200)
         {
